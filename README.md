@@ -1,6 +1,6 @@
 ## Instrucciones:
 ### Clonar repositorio:
-```git clone git@github.com:LuisSubiabre/node-g71-likeme.git```
+```git clone git@github.com:LuisSubiabre/node-g71-likeme-2.git```
 
 ### Database PostgreSQL 17
 1.- ```CREATE DATABASE likeme;```<br>
@@ -19,4 +19,5 @@ descripcion VARCHAR(255), likes INT);```<br>
 4.-```npm install```<br>
 Open: ```http://localhost:5173/```<br>
 
+![ScreenShot](screenshot.png)
 
