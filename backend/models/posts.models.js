@@ -17,7 +17,7 @@ export const createModel = async (post) => {
   ]);
 
   if (rowCount === 1) {
-    return { status: true, msg: "Post creado exitosamente", data: rows[0] };
+    return rows[0];
   }
   return { status: false, msg: "No se pudo crear el post" };
 };
